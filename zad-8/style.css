@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: sans-serif;
+
+    
+}
+
+section {
+    height: 800px;
+    background-color: #fff;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+    background: orange;
+}
+ 
+.one {
+    flex-shrink: 2;
+    /* flex-grow: 1; */
+}
+
+.two {
+    flex-shrink: 1;
+    /* flex-grow: 5; */
+}
+
+.three {
+    flex-shrink: 5;
+    /* flex-grow: 1; */
+}
+
+.four {
+    flex-shrink: 2;
+    /* flex-grow: 1; */
+}
+/* Flex grow & shrink -> Pozwalają zarządzać wolną przestrzenią */
