@@ -14,20 +14,20 @@ body {
     background-color: #333;
     font-family: sans-serif;
 
-    /* align-content: stretch; */
+   
+}
+
+section {
+    height: 800px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+     /* align-content: stretch; */
     /* align-content: flex-start; */
     /* align-content: flex-end; */
     /* align-content: center; */
     /* align-content: space-around; */
     /* align-content: space-between; */
-}
-
-section {
-    margin: 50px;
-    height: 800px;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .square {
