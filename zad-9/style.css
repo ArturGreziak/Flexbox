@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: sans-serif;
+
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+    background: blueviolet;
+}
+ 
+.one {
+    order: 0;
+}
+
+.two {
+    order: 0;
+}
+
+.three {
+    order: 0;
+}
+
+.four {
+   order: 0;
+}
+
+.five {
+    order: 0;
+}
+/*Czym mniejszy Order tym element pierwszy a czym order większy tym order większy tym bardziej na końcu*/
